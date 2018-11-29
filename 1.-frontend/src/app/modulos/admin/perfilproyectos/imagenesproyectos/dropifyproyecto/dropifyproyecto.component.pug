@@ -1,0 +1,14 @@
+mat-card.componente
+	.inputs(*ngIf="multimedias.length<=0")
+		dropify([(ngModel)]="file")
+		button(mat-icon-button, (click)="guardar()", *ngIf="carga==false")
+			mat-icon save
+		mat-spinner(*ngIf="carga==true")
+	.imagen(*ngIf="multimedias.length>0")
+		.portada(*ngFor="let item of multimedias")
+			.imagen(*ngIf="item.tamano === '400x400'")
+				img( [src]="item.url")
+		button(mat-icon-button, color="warn", (click)="borrar()")
+			mat-icon delete
+		mat-spinner(*ngIf="carga==true")
+
