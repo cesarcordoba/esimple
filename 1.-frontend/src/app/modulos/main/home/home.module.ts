@@ -10,6 +10,15 @@ import { RangeSliderModule } from 'ngx-range-slider'
 import { HomeComponent } from './home.component';
 
 
+import { SliderComponent } from './slider/slider.component';
+import { SecciontotalesComponent } from './seccionTotales/seccionTotales.component';
+import { SeccionproyectosComponent } from './seccionProyectos/seccionProyectos.component';
+import { GridproyectosComponent } from './seccionProyectos/gridProyectos/gridProyectos.component';
+import { SecciongraficasComponent } from './seccionGraficas/seccionGraficas.component';
+import { SlidercasosexitosComponent } from './sliderCasosExitos/sliderCasosExitos.component';
+import { SecciongaleriaComponent } from './seccionGaleria/seccionGaleria.component';
+import { SlidergaleriaComponent } from './seccionGaleria/sliderGaleria/sliderGaleria.component';
+import { SeccionregistroComponent } from './seccionRegistro/seccionRegistro.component';
 
 
 @NgModule({
@@ -23,6 +32,15 @@ import { HomeComponent } from './home.component';
 ],
     declarations: [
         HomeComponent,
+        SliderComponent,
+        SecciontotalesComponent,
+        SeccionproyectosComponent,
+        GridproyectosComponent,
+        SecciongraficasComponent,
+        SlidercasosexitosComponent,
+        SecciongaleriaComponent,
+        SlidergaleriaComponent,
+        SeccionregistroComponent,
     ],
     exports: []
 })

@@ -1,0 +1,15 @@
+
+mat-card.componente
+    mat-toolbar
+        mat-toolbar-row(style="justify-content : space-between")
+            .titulo
+                h3 gridProyectosMain
+                strong Grid
+    mat-grid-list(
+        cols="{{columnas}}",
+        rowHeight="{{height}}"
+        )
+        mat-grid-tile( *ngFor="let proyecto of proyectos?.items", [colspan]="colspan", [rowspan]="rowspan")
+            
+                fichaProyectoMain([proyecto]="proyecto")
+mat-paginator([length]="proyectos.items.length", [pageSize]="10", [pageSizeOptions]="[5, 10, 25, 100]")

@@ -18,7 +18,6 @@ import { ImagenesproyectosComponent } from './imagenesproyectos/imagenesproyecto
 import { DropifyproyectoComponent } from './imagenesproyectos/dropifyproyecto/dropifyproyecto.component';
 import { GridimgproyectosComponent } from './imagenesproyectos/gridimgproyectos/gridimgproyectos.component';
 import { UsauriosproyectoComponent } from './usauriosproyecto/usauriosproyecto.component';
-import { FroalaEditorModule, FroalaViewModule } from 'angular-froala-wysiwyg';
 
 
 @NgModule({
@@ -30,7 +29,6 @@ import { FroalaEditorModule, FroalaViewModule } from 'angular-froala-wysiwyg';
         FormsModule,
         ReactiveFormsModule,
         Ng2ImgMaxModule,
-        FroalaEditorModule.forRoot(), FroalaViewModule.forRoot()
 ],
     declarations: [
         PerfilproyectosComponent,

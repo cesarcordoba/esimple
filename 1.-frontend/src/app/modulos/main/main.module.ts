@@ -16,6 +16,18 @@ import { MainComponent } from './main.component';
 
 import { HomeModule } from './home/home.module';
 
+import { BeneficiosModule } from './beneficios/beneficios.module';
+
+import { NosotrosModule } from './nosotros/nosotros.module';
+
+import { PreguntasModule } from './preguntas/preguntas.module';
+
+import { ContactoModule } from './contacto/contacto.module';
+
+import { ProyectosModule } from './proyectos/proyectos.module';
+
+import { PerfilproyectosmainModule } from './perfilProyectosMain/perfilProyectosMain.module';
+
 @NgModule({
 	imports: [
 		CommonModule,
@@ -27,6 +39,12 @@ import { HomeModule } from './home/home.module';
 		ReactiveFormsModule,
 		
         HomeModule,
+        BeneficiosModule,
+        NosotrosModule,
+        PreguntasModule,
+        ContactoModule,
+        ProyectosModule,
+        PerfilproyectosmainModule,
 	],
 	declarations: [
 		MainComponent,

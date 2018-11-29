@@ -22,9 +22,15 @@ import { HomeModule } from './home/home.module';
 
 import { ProyectosModule } from './proyectos/proyectos.module';
 
-import { UsuariosModule } from './usuarios/usuarios.module';
-
 import { PerfilproyectosModule } from './perfilproyectos/perfilproyectos.module';
+
+import { InversionistasModule } from './inversionistas/inversionistas.module';
+
+import { ContratistasModule } from './contratistas/contratistas.module';
+
+import { PerfilinversionistaModule } from './perfilinversionista/perfilinversionista.module';
+
+import { PerfilcontratistaModule } from './perfilContratista/perfilContratista.module';
 
 @NgModule({
 	imports: [
@@ -37,8 +43,11 @@ import { PerfilproyectosModule } from './perfilproyectos/perfilproyectos.module'
 		MaterialModule,
         HomeModule,
         ProyectosModule,
-        UsuariosModule,
         PerfilproyectosModule,
+        InversionistasModule,
+        ContratistasModule,
+        PerfilinversionistaModule,
+        PerfilcontratistaModule,
 		],
 	entryComponents: [
 		ConfirmDelDialogComponent,
