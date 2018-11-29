@@ -19,6 +19,7 @@ import { GridproyectosinversionistaComponent } from './informacionInversionista/
 import { MetricasinversionistaComponent } from './metricasInversionista/metricasInversionista.component';
 import { ProyectosrelacionadosinversionistaComponent } from './proyectosRelacionadosInversionista/proyectosRelacionadosInversionista.component';
 import { SliderproyectosrelacionadosinverComponent } from './proyectosRelacionadosInversionista/sliderProyectosRelacionadosInver/sliderProyectosRelacionadosInver.component';
+import { FichaproyectomainModule } from './../compartidos/fichaProyectoMain/fichaProyectoMain.module';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { SliderproyectosrelacionadosinverComponent } from './proyectosRelacionad
         FormsModule,
         ReactiveFormsModule,
         Ng2ImgMaxModule,
-],
+
+        FichaproyectomainModule, ],
     declarations: [
         HomeComponent,
         InformacioninversionistaComponent,

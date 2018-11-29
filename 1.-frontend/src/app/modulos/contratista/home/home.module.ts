@@ -19,6 +19,7 @@ import { GridproyectoscontratistaComponent } from './informacionContratista/proy
 import { MetricascontratistasComponent } from './metricasContratistas/metricasContratistas.component';
 import { ProyectosrelacionadoscontratistaComponent } from './proyectosRelacionadosContratista/proyectosRelacionadosContratista.component';
 import { SliderproyectosrelacionadoscontraComponent } from './proyectosRelacionadosContratista/sliderProyectosRelacionadosContra/sliderProyectosRelacionadosContra.component';
+import { FichaproyectomainModule } from './../compartidos/fichaProyectoMain/fichaProyectoMain.module';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { SliderproyectosrelacionadoscontraComponent } from './proyectosRelaciona
         FormsModule,
         ReactiveFormsModule,
         Ng2ImgMaxModule,
-],
+
+        FichaproyectomainModule, ],
     declarations: [
         HomeComponent,
         InformacioncontratistaComponent,
